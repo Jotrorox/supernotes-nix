@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }:
+{ pkgs ? import <nixpkgs> { } }:
 
 let
   appimageTools = pkgs.appimageTools;
@@ -15,16 +15,16 @@ let
   };
 
   desktopEntryContent = ''
-[Desktop Entry]
-Name=${pname}
-Exec=${pname} %u
-Comment=Supernotes for Desktop
-Type=Application
-Categories=Office;Productivity;
-MimeType=x-scheme-handler/supernotes;application/x-supernotes-link;
-Icon=supernotes
-GenericName=Supernotes
-'';
+    [Desktop Entry]
+    Name=${pname}
+    Exec=${pname} %u
+    Comment=Supernotes for Desktop
+    Type=Application
+    Categories=Office;Productivity;
+    MimeType=x-scheme-handler/supernotes;application/x-supernotes-link;
+    Icon=supernotes
+    GenericName=Supernotes
+  '';
 
 in
 pkgs.symlinkJoin {
@@ -41,4 +41,3 @@ pkgs.symlinkJoin {
     })
   ];
 }
-
