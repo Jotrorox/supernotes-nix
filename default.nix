@@ -16,7 +16,7 @@ let
 
   desktopEntryContent = ''
     [Desktop Entry]
-    Name=${pname}
+    Name=Supernotes
     Exec=${pname} %u
     Comment=Supernotes for Desktop
     Type=Application
