@@ -30,7 +30,7 @@ let
     GenericName=Supernotes
   '';
 
-# Create a symlinked package that includes the wrapped AppImage and the .desktop file
+  # Create a symlinked package that includes the wrapped AppImage and the .desktop file
 in
 pkgs.symlinkJoin {
   name = pname;
