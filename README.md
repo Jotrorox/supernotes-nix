@@ -48,7 +48,7 @@ official, they will report the old versions and such to the Team,
 which will just be put into a bad light, which neither me nor they want.\
 But, now to the positive News, if there is enough interest in publishing Supernotes to nixpkgs,
 the Supernotes Team said, they will look into official support for nix.
-So if that would be of interest, like or comment the [Community Forum Post]().
+So if that would be of interest, like or comment the [Community Forum Post](https://community.supernotes.app/t/supernotes-nix/2777).
 
 ## :raised_hands: Contributing ##
 
