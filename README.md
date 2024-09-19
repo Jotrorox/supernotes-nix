@@ -31,7 +31,7 @@ After that is the case, you only have to build and install this package.
 
 ```shell
 nix-build default.nix
-nix-env -i ./reseult
+nix-env -i ./result
 ```
 
 **If you encounter Problems just hit me up, I'm happy to help you get started**\
